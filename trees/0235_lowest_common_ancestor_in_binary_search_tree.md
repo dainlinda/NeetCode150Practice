@@ -45,6 +45,8 @@ any edge cases?
 ## Caveat and Reflection
 - didn't need to exit on the condition finding p and q cuz it doesn't change ancestor
 - tree trait: lowest common ancestor = diverge or either is ancestor
+- worst case = skewed tree = O(n) cuz h=n
+- best case = balanced tree = O(logn) cuz h=logn
 
 ## Adapted Feedback from Claude
 Q. Can you check if I'm missing any edge cases and if there's further optimization chance?
