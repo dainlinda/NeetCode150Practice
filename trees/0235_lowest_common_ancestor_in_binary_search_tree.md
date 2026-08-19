@@ -2,9 +2,9 @@
 
 ## Check conditions to meet
 
-BST: left < root < right (all val is unique so not <= or >=)
-num nodes: 2 to 100 (p or q can be root, but p != q and both exist)
-val nodes: -100 to 100
+- BST: left < root < right (all val is unique so not <= or >=)
+- num nodes: 2 to 100 (p or q can be root, but p != q and both exist)
+- val nodes: -100 to 100
 
 ## Key idea
 ancestor changes when p and q diverge
@@ -23,14 +23,16 @@ return var ancestor when p and q were found
 ```
 
 ## Complexity
-time: assume a complete tree, p,q diverge from root, and both are located at leaves
-root + then only check ... 2 among 2^1 + 2 among 2^2 + ... + 2 among 2^h = O(1 + 2*h) = O(h)
+- time: assume a complete tree, p,q diverge from root, and both are located at leaves
+  - root + then only check ... 2 among 2^1 + 2 among 2^2 + ... + 2 among 2^h = O(1 + 2*h) 
+  - = O(h)
 
-space: O(1) since no additional ds is used except for a single var
+- space: 
+  - O(1) since no additional ds is used except for a single var
 
 ## correctness check
 test cases
-root = [5,3,8,1,4,7,9,null,2]
+- root = [5,3,8,1,4,7,9,null,2]
 - p = 3, q = 8 => 5 # else, found both, return root
 - p = 3, q = 4 => 3 # if, update ancester = 3 (found p), found q, return 3
 - p = 1, q = 9 => 5 # else, so return root
@@ -38,4 +40,12 @@ root = [5,3,8,1,4,7,9,null,2]
 
 any edge cases?
 - check smallest input
-root = [1,2] p = 1, q = 2 => else return ancestor = 1
+- root = [1,2] p = 1, q = 2 => else return ancestor = 1
+
+## Caveat and Reflection
+- didn't need to exit on the condition finding p and q cuz it doesn't change ancestor
+- tree trait: lowest common ancestor = diverge or either is ancestor
+
+## Adapted Feedback from Claude
+Q. Can you check if I'm missing any edge cases and if there's further optimization chance?
+A. Key answer: `ancestor` is redundant.

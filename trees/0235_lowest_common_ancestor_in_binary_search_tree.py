@@ -5,16 +5,14 @@ class Solution:
     def lowestCommonAncestor(
         self, root: TreeNode, p: TreeNode, q: TreeNode
     ) -> TreeNode:
-        ancestor = node = root
+        node = root
         while True:
             if p.val < node.val and q.val < node.val:
                 node = node.left
-                ancestor = node
             elif p.val > node.val and q.val > node.val:
                 node = node.right
-                ancestor = node
             else:  # diverge or either = node
-                return ancestor
+                return node
 
 
 if __name__ == "__main__":
