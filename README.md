@@ -3,6 +3,8 @@
 | # |        Problem         | Topic | Difficulty | Solved   | Revisited |
 |---|------------------------|-------|------------|----------|-----------|
 |572|Subtree of Another Tree | Trees | Easy       |2026-08-19|           |
+|235|Lowest Common Ancestor in BST | Trees | Medium |2026-08-19|           |
+
 
 
 ## Acknowledgments
