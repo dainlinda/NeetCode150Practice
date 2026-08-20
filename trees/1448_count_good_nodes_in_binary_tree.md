@@ -54,6 +54,9 @@ test cases
 edge cases
  
 ## Caveat and Reflection
+- working solution but not optimized solution
+- obsessed with monotonic stack too much
+
 ## Adapted Feedback from Claude
 - Where it actually breaks: == vs is
   - mono[-1] == node, mono[-1] != node, and the visited dictionary keys all depend on how TreeNode defines __eq__ / __hash__
