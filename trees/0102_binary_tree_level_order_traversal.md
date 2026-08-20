@@ -45,7 +45,7 @@ any edge cases?
 ## Caveat and Reflection
 - writing just node to pseudo code made it confusing => node.val is better
 - if len(tree) == 1 check is redundant cuz checking existency of left&right
-
+- In BFS: len(queue) at the moment => # nodes at that level
 ## Feedback from Claude
 Q. Can this code be optimized? I believe time: O(n) space: O(max num of nodes per level)
 
@@ -54,10 +54,5 @@ A. Key answer:
 - O(w) space where w is the max width of any level
 - For style/efficiency:
   - Storing (node, level) tuples is redundant
-    - Since BFS processes nodes strictly in level order, you don't actually need to track the level per node 
-    - you can just snapshot len(q) at the top of each iteration of an outer loop, and that count tells you exactly how many nodes belong to the current level. 
-    - This avoids the tuple allocation for every node and removes the current_level != level check + reliance on it to know when to open a new sublist. 
-    - It's the same asymptotic complexity, but it's the more standard/idiomatic pattern for level-order BFS, and it's a little more robust conceptually
-    - your current version works because of an implicit invariant (FIFO order guarantees monotonically non-decreasing levels), while the snapshot approach makes that invariant explicit instead of leaning on it silently.
-
+  - just snapshot len(q) at the top of each iteration of an outer loop, and that count tells you exactly how many nodes belong to the current level. 
   - Minor: result[level].append(...) => result[-1].append(...) would be a touch more defensive.

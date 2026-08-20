@@ -11,19 +11,18 @@ class Solution:
 
         # len(tree) > 0
         result = []
-        q = deque([(root, 0)])
-        current_level = -1
+        q = deque([root])
         while q:
-            node, level = q.popleft()
-            if current_level != level:
-                current_level = level
-                result.append([])
-            result[level].append(node.val)
+            result.append([])
 
-            if node.left:
-                q.append((node.left, level + 1))
-            if node.right:
-                q.append((node.right, level + 1))
+            for _ in range(len(q)):
+                node = q.popleft()
+                result[-1].append(node.val)
+
+                if node.left:
+                    q.append(node.left)
+                if node.right:
+                    q.append(node.right)
         return result
 
 
