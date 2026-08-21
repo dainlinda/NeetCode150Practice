@@ -7,8 +7,8 @@
 |0102|Binary Tree Level Order | Trees | Medium | 2026-08-19 |             |
 |0199|Binary Tree Right Side View | Trees | Medium | 2026-08-19 |          |
 |1448|Good nodes in Binary Tree | Trees | Medium | 2026-08-20 |            |
-|0098|Valid BST | Trees | Medium | 2026-08-21 |            |
-
+|0098|Valid BST                 | Trees | Medium | 2026-08-21 |            |
+|0230|kth smallest in BST       | Trees | Medium | 2026-08-21 |            |
 
 
 ## Acknowledgments
