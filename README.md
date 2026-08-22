@@ -10,6 +10,9 @@
 |1448|Good nodes in Binary Tree | Trees | Medium | 2026-08-20 |            |
 |0098|Valid BST                 | Trees | Medium | 2026-08-21 |            |
 |0230|kth smallest in BST       | Trees | Medium | 2026-08-21 |            |
+|0105|consturct binary tree from preorder&inorder | Medium | 2026-08-22|   |
+|0124|binary tree max path sum | Trees | Hard | 2026-08-22 |               |
+|0297|serialize&deserialize binary tree | Trees | Hard | 2026-08-22|       |
 
 
 ## Acknowledgments
