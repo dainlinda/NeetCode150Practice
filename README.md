@@ -1,4 +1,5 @@
 # NeetCode150Practice
+> Solutions to NeetCode150 problems in Python, with notes on approach and complexity.
 
 | # |        Problem         | Topic | Difficulty | Solved   | Revisited |
 |---|------------------------|-------|------------|----------|-----------|
