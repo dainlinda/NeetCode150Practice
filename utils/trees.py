@@ -43,3 +43,11 @@ def array_to_tree(arr: list[int | None]) -> TreeNode | None:
             q.append(node.right)
         i += 1
     return root
+
+
+def preorder_print_tree(node: TreeNode) -> None:
+    if not node:
+        return
+    print(node.val)
+    preorder_print_tree(node.left)
+    preorder_print_tree(node.right)
