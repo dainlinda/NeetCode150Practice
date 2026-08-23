@@ -15,6 +15,8 @@
 |0297|serialize&deserialize binary tree | Trees | Hard | 2026-08-22|       |
 |0078|subsets            | Backtracking | Medium | 2026-08-23|             |
 |0703|kth largest element | Heap/Priority queue | Easy | 2026-08-23 |      |
+|1056|last stone weight | Heap/Priority queue | Easy | 2026-08-23 |      |
+
 
 ## Acknowledgments
 
