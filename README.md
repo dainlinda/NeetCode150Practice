@@ -13,7 +13,7 @@
 |0105|consturct binary tree from preorder&inorder | Trees | Medium | 2026-08-22|   |
 |0124|binary tree max path sum | Trees | Hard | 2026-08-22 |               |
 |0297|serialize&deserialize binary tree | Trees | Hard | 2026-08-22|       |
-
+|0078|subsets            | Backtracking | Medium | 2026-08-23|             |
 
 ## Acknowledgments
 
