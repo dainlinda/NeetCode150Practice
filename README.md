@@ -18,7 +18,7 @@
 |1056|last stone weight | Heap/Priority queue | Easy | 2026-08-23 |      |
 |0973|k closest points to origin | Heap/Priority queue | Medium | 2026-08-24 |   |
 |0215|kth largest element in an array | Heap/Priority queue | Medium | 2026-08-25 |   |
-
+|0621|Task Scheduler    | Heap/Priority queue | Medium | 2026-08-26 |             |
 
 ## Acknowledgments
 
