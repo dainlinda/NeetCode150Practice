@@ -19,6 +19,7 @@
 |0973|k closest points to origin | Heap/Priority queue | Medium | 2026-08-24 |   |
 |0215|kth largest element in an array | Heap/Priority queue | Medium | 2026-08-25 |   |
 |0621|Task Scheduler    | Heap/Priority queue | Medium | 2026-08-26 |             |
+|0200|Number of Islands | Graphs              | Medium | 2026-08-27 |             |
 
 ## Acknowledgments
 
