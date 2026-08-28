@@ -20,7 +20,7 @@
 |0215|kth largest element in an array | Heap/Priority queue | Medium | 2026-08-25 |   |
 |0621|Task Scheduler    | Heap/Priority queue | Medium | 2026-08-26 |             |
 |0200|Number of Islands | Graphs              | Medium | 2026-08-27 |             |
-
+|0295|Find median from data stream | Heap/Priority queue | Hard | 2026-08-28 |        |
 ## Acknowledgments
 
 - Practice problems curated from [NeetCode 150](https://neetcode.io/practice)
