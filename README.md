@@ -23,6 +23,7 @@
 |0295|Find median from data stream | Heap/Priority queue | Hard | 2026-08-28 |        |
 |0695|Max area of island | Graphs             | Medium | 2026-08-28 |             |
 |0136|Single Number      | Bit Manipulation   | Easy   | 2026-08-29 |             |
+|0355|Design twitter | Heap/Priority queue | Medium | 2026-08-30 |        |
 
 ## Acknowledgments
 
