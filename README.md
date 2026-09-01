@@ -25,7 +25,7 @@
 |0136|Single Number      | Bit Manipulation   | Easy   | 2026-08-29 |             |
 |0355|Design twitter | Heap/Priority queue | Medium | 2026-08-30 |        |
 |0133|Clone graph | Graphs | Medium | 2026-08-31 |        |
-
+|0070|Climbing Stairs | 1-D Dynamic Programming | Easy | 2026-09-01 |       |
 
 ## Acknowledgments
 
