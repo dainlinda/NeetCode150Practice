@@ -17,7 +17,7 @@
 2. state recursive relation
 - base
   - R[0] = nums[0], R[1] = max(nums[0], nums[1])
-- Recursive relation: R[i] = max(R[i-1], R[i-2]+nums[i])
+- Recursive relation: R[i] = max(R[i-1], R[i-2]+nums[i]) when i>=2
         
 ## Complexity
 - time: O(n) because for-loop iteration dominates
