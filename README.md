@@ -27,6 +27,8 @@
 |0133|Clone graph | Graphs | Medium | 2026-08-31 |        |
 |0070|Climbing Stairs | 1-D Dynamic Programming | Easy | 2026-09-01 |       |
 |0746|Min Cost Climbing Stairs | 1-D Dynamic Programming | Easy | 2026-09-01 |       |
+|0198|House Robber | 1-D Dynamic Programming | Medium | 2026-09-02 |       |
+
 
 
 ## Acknowledgments
