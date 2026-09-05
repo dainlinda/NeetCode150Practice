@@ -30,6 +30,7 @@
 |0198|House Robber | 1-D Dynamic Programming | Medium | 2026-09-02 |       |
 |0213|House Robber 2 | 1-D Dynamic Programming | Medium | 2026-09-03 |       |
 |0268|Missing Number | Bit Manipulation | Easy | 2026-09-04 |       |
+|0300|Longest increasing subsequence | 1-D Dynamic Programming | Medium | 2026-09-05 |       |
 
 
 
