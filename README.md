@@ -32,6 +32,7 @@
 |0268|Missing Number | Bit Manipulation | Easy | 2026-09-04 |       |
 |0300|Longest increasing subsequence | 1-D Dynamic Programming | Medium | 2026-09-05 |       |
 |0072|Edit Distance | 2-D Dynamic Programming | Medium | 2026-09-06 |       |
+|1143|Longest Common Subsequence | 2-D Dynamic Programming | Medium | 2026-09-07 |       |
 
 
 
