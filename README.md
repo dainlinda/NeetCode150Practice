@@ -34,6 +34,7 @@
 |0072|Edit Distance | 2-D Dynamic Programming | Medium | 2026-09-06 |       |
 |1143|Longest Common Subsequence | 2-D Dynamic Programming | Medium | 2026-09-07 |       |
 |0322|Coin Change | 1-D Dynamic Programming | Medium | 2026-09-08 |       |
+|0191|Number of 1 bits | Bit Manipulation | Easy | 2026-09-09 |       |
 
 
 
