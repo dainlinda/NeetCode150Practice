@@ -37,6 +37,7 @@
 |0191|Number of 1 bits | Bit Manipulation | Easy | 2026-09-09 |       |
 |0518|Coin Change2 | 2-D Dynamic Programming | Medium | 2026-09-10 |       |
 |0217|Contains Duplicate | Arrays & Hashing | Easy | 2026-09-11 |       |
+|0416|Partition Equal Subset Sum | 1-D Dynamic Programming | Medium | 2026-09-13 |       |
 
 
 
