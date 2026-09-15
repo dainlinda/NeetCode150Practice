@@ -39,6 +39,7 @@
 |0217|Contains Duplicate | Arrays & Hashing | Easy | 2026-09-11 |       |
 |0416|Partition Equal Subset Sum | 1-D Dynamic Programming | Medium | 2026-09-13 |       |
 |0005|Longest Palindromic Substring | 1-D Dynamic Programming | Medium | 2026-09-14 |       |
+|0647|Palindromic Substring | 1-D Dynamic Programming | Medium | 2026-09-15 |       |
 
 
 
